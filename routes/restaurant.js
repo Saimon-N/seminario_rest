@@ -26,7 +26,7 @@ router.get('/restaurant',(req, res, next) => {
   });
  });
 
- //PUT  ---> falta
+ //PUT  ---> falta   <-------solo es un ejemplo
  router.put("/restaurant", (req, res) => {
   var datos=req.body;
   var id = req.query.id
@@ -38,7 +38,7 @@ router.get('/restaurant',(req, res, next) => {
  });
 
 
- //DELETE  --->falta
+ //DELETE  --->falta     <-------solo es un ejemplo
  router.delete("/restaurant", (req, res) => {
   var datos=req.body;
   var name = datos.id;
@@ -50,7 +50,7 @@ router.get('/restaurant',(req, res, next) => {
  });
 
 
- //PATCH  --->falta
+ //PATCH  --->falta <-------
  router.patch("/restaurant", (req, res) => {
 
  });
