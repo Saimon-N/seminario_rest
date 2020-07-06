@@ -19,14 +19,19 @@ var USERSCHEMA = new mongoose.Schema({
     telefono: {
         type: String
     },
+
     //Varible Log ---->FALTA QUE ES<---------
     //Varible Lat ---->FALTA QUE ES<---------
     //Varible Logo ---->tipo de archivo imagen<---------
+
     fechaderegistro: {
         type: Date,
         default: new Date()
     }
+
     ////Varible FotoLugar ---->tipo de archivo imagen<---------
+
 });
-var USER = mongoose.model("user", USERSCHEMA);
+
+var USER = mongoose.model("restaurante", USERSCHEMA);
 module.exports = USER;
